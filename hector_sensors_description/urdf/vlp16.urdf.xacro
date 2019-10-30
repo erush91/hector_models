@@ -11,7 +11,7 @@
       </joint>
 
       <link name="${name}_frame">
-        <xacro:inertial_sphere mass="0.83" diameter="0.1033" />
+        <xacro:macro name="inertial_sphere" mass="0.83" diameter="0.1033" />
         <!-- Visual geometry by velodyne_simulator https://bitbucket.org/DataspeedInc/velodyne_simulator -->
         <visual>
           <origin xyz="0 0 -0.0377" />
